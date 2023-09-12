@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: "Segoe UI";
 }
 
 main{
@@ -15,64 +17,119 @@ main{
 }
 
 .Container{
-    width: 30vw;
-    height: 45vw;
+    width: 35vw;
+    height: 56vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 10px solid red;
     margin-top: -20vh;
 }
 
 .Cabecalho{
-    margin-top: -10vh;
-    justify-content: start;
-    align-items: flex-start;
-    border: 10px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 } 
 
+.Cabecalho > h2 {
+    width: 308px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+img{
+    width: 48px;
+}
+
 .card{
-    border: 1px solid black;
-    width: 100%;
+    margin-top: 5px;
+    border: 1px solid rgb(197, 195, 195);
+    width: 310px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
     background: #f6f2fa;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .textfield{
     width: 40%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     color: black;
     font-size: 11pt;
-    
 }
 
-.textfield > input{
+input{
     width: 300%;
     height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 12pt;
+    outline: none;
+    background: #ffffff;
+    color: #000;
+    border: 2px solid transparent;
 }
 
 .textfield > a{
     font-size: 11pt;
 }
 
+.textfield > label{
+    width: 274px;
+    text-align: left;
+    display: inline;
+    
+}
+
 .create{
+    margin-top: 5px;
     border: 1px solid black;
-    width: 100%;
+    width: 310px;
     display: flex;
+    text-align: center;
+    padding: 2% 10px;
+    background: #ffffff;
+    border-radius: 7px;
+    display: inline;
+    margin-bottom: 35px;
+}
+
+button{
+    margin-top: 7px;
+    width: 120%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    color:#ffffff;
+    background: #0c8d28;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.lista{
+    font-size: 10pt;
+    display: inline;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2% 10px;
-    background: #f6f2fa;
-    border-radius: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(72, 92, 204);
 }
 
