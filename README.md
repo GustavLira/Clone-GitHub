@@ -29,8 +29,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 ## Preview
 
-![preview]
-
+![Preview GitHub](https://github.com/GustavLira/Clone-GitHub/assets/140671152/f7e5cee3-8e45-4a8f-bb68-41a046b168fe)
 
 ## Deploy
 
